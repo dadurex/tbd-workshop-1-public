@@ -77,4 +77,3 @@ resource "google_project_iam_binding" "token_creator_role" {
   members = toset(["serviceAccount:${local.gce_service_account}"])
 
 }
-
